@@ -1,0 +1,172 @@
+和以下180个类：'goldfish', 'bullfrog', 'tailed_frog', 'American_alligator', 'boa_constrictor', 'trilobite', 'scorpion', 'black_widow', 'tarantula', 'centipede', 'goose', 'koala', 'jellyfish', 'snail', 'slug', 'American_lobster', 'spiny_lobster', 'black_stork', 'king_penguin', 'albatross', 'dugong', 'Chihuahua', 'Yorkshire_terrier', 'golden_retriever', 'Labrador_retriever', 'German_shepherd', 'standard_poodle', 'tabby', 'Persian_cat', 'Egyptian_cat', 'cougar', 'lion', 'brown_bear', 'ladybug', 'fly', 'bee', 'grasshopper', 'walking_stick', 'cockroach', 'mantis', 'dragonfly', 'sulphur_butterfly', 'sea_cucumber', 'guinea_pig', 'hog', 'ox', 'bison', 'bighorn', 'gazelle', 'Arabian_camel', 'orangutan', 'chimpanzee', 'baboon', 'African_elephant', 'abacus', 'academic_gown', 'altar', 'apron', 'backpack', 'bannister', 'barbershop', 'barrel', 'basketball', 'bathtub', 'beach_wagon', 'beacon', 'beer_bottle', 'bikini', 'birdhouse', 'bow_tie', 'brass', 'broom', 'bucket', 'butcher_shop', 'candle', 'cannon', 'cardigan', 'cash_machine', 'CD_player', 'chain', 'chest', 'Christmas_stocking', 'cliff_dwelling', 'computer_keyboard', 'confectionery', 'convertible', 'crane', 'dam', 'desk', 'dining_table', 'drumstick', 'dumbbel', 'flagpole', 'fountain', 'freight_car', 'frying_pan', 'fur_coat', 'gasmask', 'go-kart', 'hourglass', 'iPod', 'jinrikisha', 'kimono', 'lampshade', 'lawn_mower', 'lifeboat', 'limousine', 'magnetic_compass', 'maypole', 'military_uniform', 'miniskirt', 'moving_van', 'nail', 'obelisk', 'oboe', 'organ', 'parking_meter', 'pay-phone', 'picket_fence', 'pill_bottle', 'plunger', 'pole', 'pop_bottle', "potter's_wheel", 'projectile', 'punching_bag', 'reel', 'refrigerator', 'remote_control', 'rocking_chair', 'rugby_ball', 'school_bus', 'scoreboard', 'snorkel', 'sock', 'sombrero', 'space_heater', 'sports_car', 'steel_arch_bridge', 'stopwatch', 'sunglasses', 'suspension_bridge', 'swimming_trunks', 'syringe', 'teapot', 'teddy', 'thatch', 'torch', 'tractor', 'triumphal_arch', 'trolleybus', 'umbrella', 'vestment', 'viaduct', 'water_jug', 'water_tower', 'wok', 'wooden_spoon', 'comic_book', 'plate', 'guacamole', 'ice_cream', 'ice_lolly', 'pretzel', 'mashed_potato', 'cauliflower', 'bell_pepper', 'mushroom', 'orange', 'lemon', 'banana', 'pomegranate', 'meat_loaf', 'pizza', 'potpie', 'alp', 'cliff', 'coral_reef', 'seashore', 'acorn'。如果有外形相似的特征的类，就告诉我所有相似特征的类（必须是这180个里面出现的），以及相似的特征。没有就回答“no”
+
+
+
+
+
+
+
+
+能生成一张属于espresso这个类但是有点像beer_bottle这个类的图片吗
+Can you generate an image that belongs to the beaker class but looks a bit like the beer_bottle class in a  real life
+
+
+
+
+
+老师教的：
+ What does the similarity between 【Gondola】 and 【lifeboat】 in appearance,? Please answer in the format of: both A-class and B-class have A, B, C,..., where A,B and C are phrases to describe the similarities between A-class and B-class 
+
+
+
+ generate a image of 【Gondola】 that has 【a similar elongated shape, featuring a long, narrow structure with a distinctive pointed front.  】 As realistic as possible. 
+
+
+1.23新任务：对所有的类进行两两相似的匹配。再生成图片
+方法①下面这个好像不行
+以下是A列表：
+['gondola', 'sewing_machine', 'sea_slug', 'lesser_panda', 'espresso', 'neck_brace', 'beaker', 'sandal', 'binoculars', 'turnstile', 'poncho', 'brain_coral', 'bullet_train', 'volleyball', 'monarch', 'lakeside', 'spider_web', 'barn', 'European_fire_salamander', 'police_van', 'goldfish', 'bullfrog', 'tailed_frog', 'American_alligator', 'boa_constrictor', 'trilobite', 'scorpion', 'black_widow', 'tarantula', 'centipede', 'goose', 'koala', 'jellyfish', 'snail', 'slug', 'American_lobster', 'spiny_lobster', 'black_stork', 'king_penguin', 'albatross', 'dugong', 'Chihuahua', 'Yorkshire_terrier', 'golden_retriever', 'Labrador_retriever', 'German_shepherd', 'standard_poodle', 'tabby', 'Persian_cat', 'Egyptian_cat', 'cougar', 'lion', 'brown_bear', 'ladybug', 'fly', 'bee', 'grasshopper', 'walking_stick', 'cockroach', 'mantis', 'dragonfly', 'sulphur_butterfly', 'sea_cucumber', 'guinea_pig', 'hog', 'ox', 'bison', 'bighorn', 'gazelle', 'Arabian_camel', 'orangutan', 'chimpanzee', 'baboon', 'African_elephant', 'abacus', 'academic_gown', 'altar', 'apron', 'backpack', 'bannister', 'barbershop', 'barrel', 'basketball', 'bathtub', 'beach_wagon', 'beacon', 'beer_bottle', 'bikini', 'birdhouse', 'bow_tie', 'brass', 'broom', 'bucket', 'butcher_shop', 'candle', 'cannon', 'cardigan', 'cash_machine', 'CD_player', 'chain', 'chest', 'Christmas_stocking', 'cliff_dwelling', 'computer_keyboard', 'confectionery', 'convertible', 'crane', 'dam', 'desk', 'dining_table', 'drumstick', 'dumbbel', 'flagpole', 'fountain', 'freight_car', 'frying_pan', 'fur_coat', 'gasmask', 'go-kart', 'hourglass', 'iPod', 'jinrikisha', 'kimono', 'lampshade', 'lawn_mower', 'lifeboat', 'limousine', 'magnetic_compass', 'maypole', 'military_uniform', 'miniskirt', 'moving_van', 'nail', 'obelisk', 'oboe', 'organ', 'parking_meter', 'pay-phone', 'picket_fence', 'pill_bottle', 'plunger', 'pole', 'pop_bottle', "potter's_wheel", 'projectile', 'punching_bag', 'reel', 'refrigerator', 'remote_control', 'rocking_chair', 'rugby_ball', 'school_bus', 'scoreboard', 'snorkel', 'sock', 'sombrero', 'space_heater', 'sports_car', 'steel_arch_bridge', 'stopwatch', 'sunglasses', 'suspension_bridge', 'swimming_trunks', 'syringe', 'teapot', 'teddy', 'thatch', 'torch', 'tractor', 'triumphal_arch', 'trolleybus', 'umbrella', 'vestment', 'viaduct', 'water_jug', 'water_tower', 'wok', 'wooden_spoon', 'comic_book', 'plate', 'guacamole', 'ice_cream', 'ice_lolly', 'pretzel', 'mashed_potato', 'cauliflower', 'bell_pepper', 'mushroom', 'orange', 'lemon', 'banana', 'pomegranate', 'meat_loaf', 'pizza', 'potpie', 'alp', 'cliff', 'coral_reef', 'seashore', 'acorn'] B列表和A列表里面的内容一致。对这两个列表中200个类进行两两外形相似的匹配，不和名字重复的匹配，如果没有相似的就不用管，不输出。输出的格式：class a and class b，其中a是A列表中的类名，b是B列表中的类名。例子：“gondola and lifeboat”，“sewing_machine and cash_machine”，“sea_slug and snail”
+
+回答：名字相似？？？我服了。。不行
+"slug and sea_slug"
+"fly and dragonfly"
+"fly and sulphur_butterfly"
+"bee and beer_bottle"
+"nail and snail"
+"pole and flagpole"
+"pole and maypole"
+"cliff and cliff_dwelling
+
+方法②：先按顺序输出（因为本来也有点顺序），把200个类分成好几个段5-6个左右，人分（就说gpt分的），这样大致划分，让他分析外形特点，再问他这40个类里面有相似的吗。
+【顺序输出：209项？？？就是200项！！！，gpt神经病瞎说乱说】
+动物1
+['goldfish', 'European_fire_salamander', 'bullfrog', 'tailed_frog', 'American_alligator', 'boa_constrictor', 'trilobite', 'scorpion', 'black_widow', 'tarantula', 'centipede', 'goose', 'koala', 'jellyfish', 'brain_coral', 'snail', 'slug', 'sea_slug', 'American_lobster', 'spiny_lobster', 'black_stork', 'king_penguin', 'albatross', 'dugong',
+动物2
+ 'Chihuahua', 'Yorkshire_terrier', 'golden_retriever', 'Labrador_retriever', 'German_shepherd', 'standard_poodle', 'tabby', 'Persian_cat', 'Egyptian_cat', 'cougar', 'lion', 'brown_bear', 'ladybug', 'fly', 'bee', 'grasshopper', 'walking_stick', 'cockroach', 'mantis', 'dragonfly', 'monarch', 'sulphur_butterfly', 'sea_cucumber', 'guinea_pig', 'hog', 'ox', 'bison', 'bighorn', 'gazelle', 'Arabian_camel', 'orangutan', 'chimpanzee', 'baboon', 'African_elephant', 'lesser_panda',
+物品类
+ 'abacus', 'academic_gown', 'altar', 'apron', 'backpack', 'bannister', 'barbershop', 'barn', 'barrel', 'basketball', 'bathtub', 'beach_wagon', 'beacon', 'beaker', 'beer_bottle', 'bikini', 'binoculars', 'birdhouse', 'bow_tie', 'brass', 'broom', 'bucket', 'bullet_train', 'butcher_shop', 'candle', 'cannon', 'cardigan', 'cash_machine', 'CD_player', 'chain', 'chest', 'Christmas_stocking', 'cliff_dwelling', 'computer_keyboard', 'confectionery', 'convertible', 'crane', 'dam', 'desk', 'dining_table', 'drumstick', 'dumbbel', 'flagpole', 'fountain', 'freight_car', 'frying_pan', 'fur_coat', 'gasmask', 'go-kart', 'gondola', 'hourglass', 'iPod', 'jinrikisha', 'kimono', 'lampshade', 'lawn_mower', 'lifeboat', 'limousine', 'magnetic_compass', 'maypole', 'military_uniform', 'miniskirt', 'moving_van', 'nail', 'neck_brace', 'obelisk', 'oboe', 'organ', 'parking_meter', 'pay-phone', 'picket_fence', 'pill_bottle', 'plunger', 'pole', 'police_van', 'poncho', 'pop_bottle', "potter's_wheel", 'projectile', 'punching_bag', 'reel', 'refrigerator', 'remote_control', 'rocking_chair', 'rugby_ball', 'sandal', 'school_bus', 'scoreboard', 'sewing_machine', 'snorkel', 'sock', 'sombrero', 'space_heater', 'spider_web', 'sports_car', 'steel_arch_bridge', 'stopwatch', 'sunglasses', 'suspension_bridge', 'swimming_trunks', 'syringe', 'teapot', 'teddy', 'thatch', 'torch', 'tractor', 'triumphal_arch', 'trolleybus', 'turnstile', 'umbrella', 'vestment', 'viaduct', 'volleyball', 'water_jug', 'water_tower', 'wok', 'wooden_spoon', 'comic_book', 'plate', 【这个太多了也比较杂，让gpt划分一下：】
+【家具类：'desk', 'dining_table', 'rocking_chair'
+音乐和乐器类：'organ', 'oboe', 'drumstick'
+服装和配饰类：'academic_gown', 'apron', 'cardigan', 'kimono', 'bow_tie', 'sandal', 'bikini', 'sunglasses', 'teddy', 'vestment'
+交通工具类：'beach_wagon', 'bullet_train', 'go-kart', 'gondola', 'jinrikisha', 'limousine', 'moving_van', 'school_bus', 'tractor', 'trolleybus'
+建筑和结构类：'altar', 'bannister', 'barbershop', 'barn', 'barrel', 'cliff_dwelling', 'flagpole', 'maypole', 'obelisk', 'pole', 'suspension_bridge', 'viaduct'
+家居用品和设备类：'bathtub', 'beaker', 'candle', 'cash_machine', 'CD_player', 'chain', 'chest', 'computer_keyboard', 'fountain', 'gasmask', 'hourglass', 'iPod', 'lampshade', 'lawn_mower', 'lifeboat', 'limousine', 'magnetic_compass', 'maypole', 'military_uniform', 'miniskirt', 'moving_van', 'nail', 'obelisk', 'oboe', 'organ', 'parking_meter', 'pay-phone', 'picket_fence', 'pill_bottle', 'plunger', 'pole', 'pop_bottle', "potter's_wheel", 'projectile', 'punching_bag', 'reel', 'refrigerator', 'remote_control', 'rocking_chair', 'rugby_ball', 'sandal', 'school_bus', 'scoreboard', 'sewing_machine', 'snorkel', 'sock', 'sombrero', 'space_heater', 'sports_car', 'steel_arch_bridge', 'stopwatch', 'sunglasses', 'suspension_bridge', 'swimming_trunks', 'syringe', 'teapot', 'teddy', 'thatch', 'torch', 'tractor', 'triumphal_arch', 'trolleybus', 'turnstile', 'umbrella', 'vestment', 'viaduct', 'volleyball', 'water_jug', 'water_tower', 'wok', 'wooden_spoon', 'comic_book', 'plate】
+【【Furniture:
+
+Desk: Flat, horizontal work surface.
+Dining Table: Rectangular, flat surface with legs.
+Rocking Chair: Chair with curved legs and backrest.
+Music and Instruments:
+
+Organ: Musical instrument with multiple keyboards.
+Oboe: Woodwind instrument.
+Drumstick: Long, slender stick for playing drums.
+Clothing and Accessories:
+
+Academic Gown: Long, flowing graduation robe.
+Apron: Waist-tied protective garment.
+Cardigan: Knitted button-up sweater.
+Kimono: Traditional Japanese robe.
+Bow Tie: Pre-tied necktie.
+Sandal: Open-toe footwear.
+Bikini: Two-piece swimsuit.
+Sunglasses: Eyewear with dark lenses.
+Teddy: Stuffed bear toy.
+Vestment: Liturgical robe.
+Transportation:
+
+Beach Wagon: Beach-themed vehicle.
+Bullet Train: High-speed train.
+Go-Kart: Small, low racing vehicle.
+Gondola: Small, boat-like transport.
+Jinrikisha: Hand-pulled rickshaw.
+Limousine: Luxury car with partition.
+Moving Van: Large transport vehicle.
+School Bus: Yellow school transport.
+Tractor: Farming vehicle.
+Trolleybus: Electric bus.
+Turnstile: Rotating gate.
+Umbrella: Foldable rain shelter.
+Buildings and Structures:
+
+Altar: Raised platform for ceremonies.
+Bannister: Handrail.
+Barbershop: Haircutting establishment.
+Barn: Farm storage building.
+Barrel: Cylindrical container.
+Cliff Dwelling: Structure on cliffs.
+Flagpole: Tall flag support.
+Maypole: Festive pole.
+Obelisk: Tall, tapered monument.
+Pole: Long, upright cylinder.
+Suspension Bridge: Hanging bridge.
+Viaduct: Elevated roadway.
+Household Items and Equipment:
+
+Bathtub: Large tub for bathing.
+Beaker: Cylindrical laboratory container.
+Candle: Wax stick for lighting.
+Cash Machine: ATM.
+CD Player: Disc player.
+Chain: Linked metal loop.
+Chest: Storage container.
+Computer Keyboard: Input device.
+Fountain: Decorative water feature.
+Gas Mask: Breathing protection.
+Hourglass: Sand-filled timer.
+iPod: Portable music player.
+Lampshade: Light cover.
+Lawn Mower: Grass-cutting machine.
+Lifeboat: Emergency rescue boat.
+Magnetic Compass: Navigation tool.
+Nail: Metal fastener.
+Pay-Phone: Public telephone.
+Picket Fence: Fence with pointed stakes.
+Pill Bottle: Medication container.
+Plunger: Suction tool.
+Pop Bottle: Carbonated beverage container.
+Potter's Wheel: Pottery-making tool.
+Projectile: Flying object.
+Punching Bag: Boxing practice equipment.
+Reel: Spool for winding.
+Refrigerator: Appliance for cooling.
+Remote Control: Device for wireless operation.
+Rocking Chair: Chair with rocking base.
+Rugby Ball: Oval-shaped sports ball.
+Sandal: Open-toe footwear.
+School Bus: Yellow school transport.
+Scoreboard: Scoring display.
+Sewing Machine: Fabric stitching device.
+Snorkel: Breathing tube for swimming.
+Sock: Footwear accessory.
+Sombrero: Wide-brimmed hat.
+Space Heater: Portable heating device.
+Sports Car: Fast, sleek automobile.
+Steel Arch Bridge: Metal arched bridge.
+Stopwatch: Timekeeping device.
+Sunglasses: Eyewear with dark lenses.
+Suspension Bridge: Hanging bridge.
+Swimming Trunks: Men's swimwear.
+Syringe: Medical injection tool.
+Teapot: Container for brewing tea.
+Teddy: Stuffed bear toy.
+Thatch: Roof covering material.
+Torch: Handheld light source.
+Tractor: Farming vehicle.
+Triumphal Arch: Grand arch.
+Trolleybus: Electric bus.
+Turnstile: Rotating gate.
+Umbrella: Foldable rain shelter.
+Vestment: Liturgical robe.
+Viaduct: Elevated roadway.
+Volleyball: Sports ball.
+Water Jug: Liquid container.
+Water Tower: Elevated water storage.
+Wok: Wide, round cooking pan.
+Wooden Spoon: Utensil made of wood.
+Comic Book: Illustrated storytelling.
+Plate: Flat dish.】】
+食物：
+'guacamole', 'ice_cream', 'ice_lolly', 'pretzel', 'mashed_potato', 'cauliflower', 'bell_pepper', 'mushroom', 'orange', 'lemon', 'banana', 'pomegranate', 'meat_loaf', 'pizza', 'potpie', 'espresso', 
+景观：
+'alp', 'cliff', 'coral_reef', 'lakeside', 'seashore', 'acorn']
