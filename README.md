@@ -1,19 +1,8 @@
-# LMC: Large Model Collaboration with Cross-assessment for Training-Free Open-Set Object Recognition, NeurIPS 2023
+# Multi-method integration with Confidence-based weighting for Zero-shot Image classification(MICW-ZIC)
 
-<sup>1</sup>Haoxuan Qu\*,
-<sup>1</sup>Xiaofei Hui\*,
-<sup>2</sup>Yujun Cai,
-<sup>1</sup>Jun Liu,
+## Overview of MICW-ZIC
 
-\* equal contribution
-
-<sup>1</sup>Singapore University of Technology and Design, <sup>2</sup>Meta
-
-[[Paper]](https://github.com/Harryqu123/LMC/blob/main/main.pdf) | [[Arxiv]](https://arxiv.org/pdf/2309.12780.pdf) | [[SUTD-VLG Lab]](https://github.com/sutdcv)
-
-## Overview of LMC
-
-<p align="center"> <img src="./overview.png" width="100%"> </p>
+![1](E:\wsnbb\y\lunwen\第四次Intelligent Data Analysis\pic\1.png)
 
 ## Environment
 
@@ -34,27 +23,22 @@ pip install transformers openai
 pip install git+https://github.com/openai/CLIP.git
 ```
 
+
+
 ## Preparation
 
 ### Dataset
-Tinyimagenet can be downloaded by running:
-```
-cd data
-bash tinyimagenet.sh
-```
+
+Decompress the following files in this directory: cifar10_dalle.zip, cifar100_dalle.zip, pic_DALL-E_all.zip, and pic_test.zip. They are the reference image of the cifar10 dataset, the reference image of the cifar100 dataset, the reference image of the TinyImage dataset and the test image of the TinyImage dataset.
 
 ### Pre-trained model
+
 To load CLIP pre-trained weights, you can visit official [CLIP](https://github.com/openai/CLIP/) GitHub Repo and download CLIP "ViT-B/32" to `pretrained_model` using download address in [this page](https://github.com/openai/CLIP/blob/main/clip/clip.py). 
 
 To load DINO pre-trained weights, you can visit official [DINOv2]() and download "ViT-B/14 distilled" to `pretrained_model` using download address in [this page](https://github.com/facebookresearch/dinov2#pretrained-models).
 
-## Evaluation 
-To evaluate using our provided virtual open-set classes, please unzip `tiny_img.zip` and run:
-
-`python tinyimagenet_eval_msp.py --save_dir path\to\save\result --image_path path\to\unzipped\images`
-
-Note that here we provide virtual open-set classes and generated images that can yield slightly better results than the results provided in our paper for Tinyimagenet.
 
 
-## Acknowledgement
-Part of our code is borrowed from [ZOC](https://github.com/sesmae/ZOC). We thank the authors for releasing the codes.
+### Learn more
+
+ [1134112149/MICW-ZIC (github.com)](https://github.com/1134112149/MICW-ZIC) 
