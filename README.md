@@ -2,7 +2,7 @@
 
 ## Overview of MICW-ZIC
 
-![1](E:\wsnbb\y\lunwen\第四次Intelligent Data Analysis\pic\1.png)
+<p align="center"> <img src="./overview.png" width="100%"> </p>
 
 ## Environment
 
