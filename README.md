@@ -3,7 +3,6 @@
 ## Overview of MICW-ZIC
 
 <p align="center"> <img src="./overview.png" width="100%"> </p>
-
 ## Environment
 
 The code is developed and tested under the following environment:
